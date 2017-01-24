@@ -4,3 +4,4 @@ To use these programs, you will need to download everything that is described he
 These programs reference these Google Docs:
 Descriptions Google Doc: https://docs.google.com/spreadsheets/d/1vCC3tQXHe7QV6-0MLzGdKEZUqZhI316uiUO256D5elk/edit?usp=sharing
 Titles Google Doc: https://docs.google.com/spreadsheets/d/1gzB1_DsoUCSuR2cwySwzvTIeU4TrlyMKna5KuNXtOuI/edit?usp=sharing
+To avoid having GoogleDocs slow down by using one description searcher program, you might want to generate multiple searcher programs with moder.py to cover the same span of websites. The batch file that is included can be used or modified appropriately to run all of the description searcher programs.
