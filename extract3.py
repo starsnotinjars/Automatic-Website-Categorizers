@@ -3,7 +3,7 @@ import re
 import sys
 
 
-pin1 = open('out3.txt','r')
+pin1 = open('output.txt','r')
 lines1 = pin1.readlines();
 
 pin2 = open('ads2.txt','r')
