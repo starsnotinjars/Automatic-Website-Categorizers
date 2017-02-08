@@ -1,3 +1,4 @@
 .scrapecache
 *.db
 *.txt
+*.pyc

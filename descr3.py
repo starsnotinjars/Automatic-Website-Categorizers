@@ -1,13 +1,17 @@
+import common
+
+filename = common.get_filename()
+lines1 = common.read_lines_from_file(filename)
+
 import requests
 import re
 import sys
 import unicodedata
 from bs4 import BeautifulSoup
-pin1 = open('websites.txt','r')
-lines1 = pin1.readlines();
+
 urls=[]
 
-for line in lines1: 
+for line in lines1:
 
 	values1 = re.split('\n', line);
 
@@ -32,4 +36,3 @@ for i in range(0, len(urls)):
 	except:
 		print "N/A"
 		continue;
-

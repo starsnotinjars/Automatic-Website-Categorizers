@@ -1,102 +1,38 @@
 # -*- coding: utf-8 -*-
 import re
 import sys
+import common
 
+def parse_keywords_from_file( filename ):
+	lines2 = common.read_lines_from_file(filename)
+	parsed=[]
 
-pin1 = open('output.txt','r')
-lines1 = pin1.readlines();
+	for line in lines2:
+		values2 = re.split(',', line);
+		#print (values2)
+		for i in range(0,len(values2)):
+			word=list(values2[i])
+			if word[len(word)-1]=='$':
+				word[len(word)-1]=','
+				values2[i]=''.join(word)
+			parsed.append(values2[i])
 
-pin2 = open('ads2.txt','r')
-lines2 = pin2.readlines();
-keys_ads=[]
-for line in lines2:
-	values2 = re.split(',', line);
-	#print (values2)
-	for i in range(0,len(values2)):
-		word=list(values2[i])
-		if word[len(word)-1]=='$':
-			word[len(word)-1]=','
-			values2[i]=''.join(word)
-		keys_ads.append(values2[i])
+	return parsed
+
+keys_ads = parse_keywords_from_file('ads2.txt')
 # print (keys_ads)
 
-pin3 = open('commerce2.txt','r')
-lines3 = pin3.readlines();
-keys_commerce=[]
-for line in lines3:
-	values3 = re.split(',', line);
-	#print (values3)
-	for i in range(0,len(values3)):
-		word=list(values3[i])
-		if word[len(word)-1]=='$':
-			word[len(word)-1]=','
-			values3[i]=''.join(word)
-		keys_commerce.append(values3[i])
+keys_commerce = parse_keywords_from_file('commerce2.txt')
 
-pin4 = open('search2.txt','r')
-lines4 = pin4.readlines();
-keys_search=[]
-for line in lines4:
-	values4 = re.split(',', line);
-	#print (values4)
-	for i in range(0,len(values4)):
-		word=list(values4[i])
-		if word[len(word)-1]=='$':
-			word[len(word)-1]=','
-			values4[i]=''.join(word)
-		keys_search.append(values4[i])
+keys_search = parse_keywords_from_file('search2.txt')
 
-pin5 = open('adult2.txt','r')
-lines5 = pin5.readlines();
-keys_adult=[]
-for line in lines5:
-	values5 = re.split(',', line);
-	#print (values5)
-	for i in range(0,len(values5)):
-		word=list(values5[i])
-		if word[len(word)-1]=='$':
-			word[len(word)-1]=','
-			values5[i]=''.join(word)
-		keys_adult.append(values5[i])
+keys_adult = parse_keywords_from_file('adult2.txt')
 
-pin6 = open('news2.txt','r')
-lines6 = pin6.readlines();
-keys_news=[]
-for line in lines6:
-	values6 = re.split(',', line);
-	#print (values6)
-	for i in range(0,len(values6)):
-		word=list(values6[i])
-		if word[len(word)-1]=='$':
-			word[len(word)-1]=','
-			values6[i]=''.join(word)
-		keys_news.append(values6[i])
+keys_news = parse_keywords_from_file('news2.txt')
 
-pin7 = open('service2.txt','r')
-lines7 = pin7.readlines();
-keys_service=[]
-for line in lines7:
-	values7 = re.split(',', line);
-	#print (values7)
-	for i in range(0,len(values7)):
-		word=list(values7[i])
-		if word[len(word)-1]=='$':
-			word[len(word)-1]=','
-			values7[i]=''.join(word)
-		keys_service.append(values7[i])
+keys_service = parse_keywords_from_file('service2.txt')
 
-pin8 = open('platform2.txt','r')
-lines8 = pin8.readlines();
-keys_platform=[]
-for line in lines8:
-	values8 = re.split(',', line);
-	#print (values8)
-	for i in range(0,len(values8)):
-		word=list(values8[i])
-		if word[len(word)-1]=='$':
-			word[len(word)-1]=','
-			values8[i]=''.join(word)
-		keys_platform.append(values8[i])
+keys_platform = parse_keywords_from_file('platform2.txt')
 
 counts_ads=[]
 
@@ -144,6 +80,9 @@ count=0
 on=0
 on2=0
 temp=[]
+
+pin1 = open('output.txt','r')
+lines1 = pin1.readlines();
 
 target = open('output_from_search3.txt', 'w')
 
