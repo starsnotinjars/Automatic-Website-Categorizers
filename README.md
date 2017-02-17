@@ -13,8 +13,8 @@ Open a command prompt and enter the following:
  (You will need to have a file called websites.txt with a list of websites that you want to search.)    
 Run extract3.py on that output.txt file:
 
-    python3 extract3.py 
- (Change pin1 in extract3.py to reference the output file that you created.)
+    python3 extract3.py output.txt output_from_extract.txt
+(The first entry in the command line after 'extract3.py' should be the name of the input file that you are processing, which is the output from the desired GoogleScraper run. The entry after that should be the name of the output file that you want to create.)
 
 # Description Searcher
 Download the prerequisites:
