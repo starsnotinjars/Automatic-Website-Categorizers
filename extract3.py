@@ -81,10 +81,13 @@ on=0
 on2=0
 temp=[]
 
-pin1 = open('output.txt','r')
+filename1 = sys.argv[1]
+pin1 = open(filename1,'r')
 lines1 = pin1.readlines();
 
-target = open('output_from_search3.txt', 'w')
+filename2 = sys.argv[2]
+
+target = open(filename2, 'w')
 
 for line in lines1:
 
