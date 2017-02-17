@@ -9,8 +9,8 @@ Download  [GoogleScraper](https://github.com/NikolaiT/GoogleScraper):
 
 Open a command prompt and enter the following:
 
-    GoogleScraper -m http -s "bing" --keyword-file keyword10.txt > output.txt
-    
+    GoogleScraper -m http -s "bing" --keyword-file websites.txt > output.txt    
+ (You will need to have a file called websites.txt with a list of websites that you want to search.)    
 Run extract3.py on that output.txt file:
 
     python3 extract3.py 
