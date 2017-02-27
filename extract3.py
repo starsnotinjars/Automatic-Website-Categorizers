@@ -122,7 +122,7 @@ for line in lines1:
 						if temp[k]==keys_ads[j]:
 
 							counts_ads[j]=counts_ads[j]+1
-							target.write(' Ads ')
+							target.write(' ads')
 							nothing=0
 
 
@@ -137,7 +137,7 @@ for line in lines1:
 						if temp[k]==keys_commerce[j]:
 
 							counts_commerce[j]=counts_commerce[j]+1
-							target.write(' Commerce ')
+							target.write(' commerce')
 							nothing=0
 
 
@@ -153,7 +153,7 @@ for line in lines1:
 						if temp[k]==keys_search[j]:
 
 							counts_search[j]=counts_search[j]+1
-							target.write(' Search ')
+							target.write(' search')
 							nothing=0
 
 
@@ -169,7 +169,7 @@ for line in lines1:
 						if temp[k]==keys_adult[j]:
 
 							counts_adult[j]=counts_adult[j]+1
-							target.write(' Adult ')
+							target.write(' adult')
 							nothing=0
 
 
@@ -185,7 +185,7 @@ for line in lines1:
 						if temp[k]==keys_news[j]:
 
 							counts_news[j]=counts_news[j]+1
-							target.write(' News')
+							target.write(' news')
 							nothing=0
 
 
@@ -201,7 +201,7 @@ for line in lines1:
 						if temp[k]==keys_service[j]:
 
 							counts_service[j]=counts_service[j]+1
-							target.write(' Service')
+							target.write(' services')
 							nothing=0
 
 
@@ -217,11 +217,11 @@ for line in lines1:
 						if temp[k]==keys_platform[j]:
 
 							counts_platform[j]=counts_platform[j]+1
-							target.write(' Platform')
+							target.write(' platforms')
 							nothing=0
 
 				if nothing==1:
-					target.write(' Nothing')
+					target.write(' nothing')
 
 ###############
 				target.write("\n")
