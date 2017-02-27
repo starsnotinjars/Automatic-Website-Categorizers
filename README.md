@@ -17,7 +17,8 @@ Run extract3.py on that output.txt file:
 (The first entry in the command line after 'extract3.py' should be the name of the input file that you are processing, which is the output from the desired GoogleScraper run. The entry after that should be the name of the output file that you want to create.)
 
 # Description Searcher
-Powered by Yandex.Translate http://translate.yandex.com/
+(Powered by Yandex.Translate: http://translate.yandex.com/ )
+
 Download the prerequisites:
 
     pip2 install BeautifulSoup4
