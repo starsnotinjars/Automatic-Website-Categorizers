@@ -1,1 +1,0 @@
-service,services,Service,Services,service.,services.,Service.,Services.,service$,services$,Service$,Services$,Servicios,servicios,Serviços,serviços,サービス、 サービス,"сервис","услуги",Perkhidmatan,perkhidmatan,dienstleistungen
