@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+#(Powered by Yandex.Translate: http://translate.yandex.com/ )
 keys_ads=[
 'remove',
 'ad',
