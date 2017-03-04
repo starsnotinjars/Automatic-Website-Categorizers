@@ -4,6 +4,7 @@ These programs are designed to categorize specified websites.
 
 # Title Searcher
 (Powered by Yandex.Translate: http://translate.yandex.com/ )
+
 Download  [GoogleScraper](https://github.com/NikolaiT/GoogleScraper):
 
     pip3 install GoogleScraper
