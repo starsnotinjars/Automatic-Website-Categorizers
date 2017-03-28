@@ -29,7 +29,7 @@ Open a command prompt and enter the following:
 (This will find the titles of webpages in Common Crawl.) 
 Open a command prompt and enter the following:
 
-    python2.7 titles_searcher.py output.txt
+    python2.7 titles_searcher_common.py output.txt
 (The first entry in the command line after 'titles_searcher.py' should be the name of the output file that you want to create.) 
 
 # Description Searcher
