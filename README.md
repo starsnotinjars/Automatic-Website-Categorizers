@@ -1,4 +1,4 @@
-# Automatic-Website-Categorizers
+# logger an amazing project
 
 These programs are designed to categorize specified websites.
 
