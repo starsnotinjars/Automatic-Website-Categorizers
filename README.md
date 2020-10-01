@@ -1,4 +1,4 @@
-# Automatic-Website-Categorizers
+# Automatic Website Categorizer
 
 These programs are designed to categorize specified websites.
 
