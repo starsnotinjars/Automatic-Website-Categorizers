@@ -1,4 +1,4 @@
-# Automatic-Website-Categorizers
+# Automatic-Website-Categorizers(AWC)
 
 These programs are designed to categorize specified websites.
 
@@ -50,5 +50,7 @@ This will output results in the form: website address category.
 
 Create a textfile called websites.txt with all of the websites that you want to search. Then run the file aggregators.py on that. You will need to install BeautifulSoup and GoogleScraper as described above for the Title Searcher program and Description Searcher Program. This program will output two lists, one list will be the list of sites that were identified to be aggregators and the other list will be the list of sites that were not identified to be aggregators.
 
-# Twitter Handle/Facebook Page Extractor
+# Twitter Handle/Facebook Page Extractor:-
 Create a textfile called websites.txt with all of the websites that you want to search. Then run the file twitterandfacebook.py on that. This program wilAl output the twitter handles and facebook pages that were found for the websites that were searched. At this point, some minor editing of the output is required.
+
+"THANK YOU FOR GIVING ME YOUR PRECIOUS TIME"
