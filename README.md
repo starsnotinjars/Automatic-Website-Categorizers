@@ -1,6 +1,6 @@
 # Automatic-Website-Categorizers
 
-These programs are designed to categorize specified websites.
+These programs are designed to categorize specific websites.
 
 # Title Searcher
 (Powered by Yandex.Translate: http://translate.yandex.com/ )
@@ -10,19 +10,19 @@ Download  [GoogleScraper](https://github.com/NikolaiT/GoogleScraper):
     pip3 install GoogleScraper
 (GoogleScraper requires Python3.)
 
-Open a command prompt and enter the following:
+On your command prompt(or terminal), enter the following:
 
     GoogleScraper -m http -s "bing" --keyword-file websites.txt > output.txt    
  (You will need to have a file called websites.txt with a list of websites that you want to search.)    
-Run titles_searcher.py that output.txt file:
+    First run titles_searcher.py and then output.txt file:
 
     python2.7 titles_searcher.py output.txt output_from_extract.txt
-(The first entry in the command line after 'titles_searcher.py' should be the name of the input file that you are processing, which is the output from the desired GoogleScraper run. The entry after that should be the name of the output file that you want to create. You will need to put the file lists.py in the same directory as titles_searcher.py.)
+(The first entry in the command line after 'titles_searcher.py' should be the name of the input file that you are processing, which is the output from the desired GoogleScraper run. The entry after that should be the name of the output file that you want to create. You have to put the lists.py in the same directory as titles_searcher.py.)
 
 # Common Crawl Title Searcher
 (Powered by Yandex.Translate: http://translate.yandex.com/ )
 
-Open a command prompt and enter the following:
+Open command prompt (or terminal) and enter the following:
 
     python2.7 extract_data.py
     
