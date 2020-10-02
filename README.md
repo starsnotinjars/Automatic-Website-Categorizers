@@ -1,6 +1,6 @@
 # Automatic-Website-Categorizers
 
-These programs are designed to categorize specified websites.
+These programs are designed to categorize specific websites.
 
 # Title Searcher
 (Powered by Yandex.Translate: http://translate.yandex.com/ )
