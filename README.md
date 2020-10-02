@@ -40,7 +40,7 @@ Download the prerequisites:
     pip2 install BeautifulSoup4
     pip2 install request
     
-Create a textfile called websites.txt with all of the websites that you want to search for. If you want to create a textfile of websites with a different filenmae, update the file common.py so that it references the correct filename.  Then run the file description_searcher.py.
+Create a textfile called websites.txt with all of the websites that you want to search for. If you want to create a textfile of websites with a different filename, update the file common.py so that it references the correct filename.  Then run the file description_searcher.py.
 
     python2.7 description_searcher.py
 
