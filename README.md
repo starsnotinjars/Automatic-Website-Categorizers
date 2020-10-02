@@ -10,6 +10,9 @@ Download  [GoogleScraper](https://github.com/NikolaiT/GoogleScraper):
     pip3 install GoogleScraper
 (GoogleScraper requires Python3.)
 
+Also,python is simple, easy to learn syntax emphasizes readability and therefore reduces the cost of program maintenance. Python supports modules and packages, which encourages program modularity and code reuse.
+
+
 Open a command prompt and enter the following:
 
     GoogleScraper -m http -s "bing" --keyword-file websites.txt > output.txt    
