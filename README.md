@@ -40,15 +40,14 @@ Download the prerequisites:
     pip2 install BeautifulSoup4
     pip2 install request
     
-Create a textfile called websites.txt with all of the websites that you want to search for. If you want to create a textfile of websites with a different filenmae, update the file common.py so that it references the correct filename.  Then run the file description_searcher.py.
+Create a text file called websites.txt with all of the websites that you want to search for. If you want to create a textfile of websites with a different filenmae, update the file common.py so that it references the correct filename. Then run the file description_searcher.py.
 
     python2.7 description_searcher.py
 
 This will output results in the form: website address category. 
 
 # Aggregator Identifier
-
-Create a textfile called websites.txt with all of the websites that you want to search. Then run the file aggregators.py on that. You will need to install BeautifulSoup and GoogleScraper as described above for the Title Searcher program and Description Searcher Program. This program will output two lists, one list will be the list of sites that were identified to be aggregators and the other list will be the list of sites that were not identified to be aggregators.
+Create a text file called websites.txt with all of the websites that you want to search for. Then run the file aggregators.py on that. You will need to install BeautifulSoup and GoogleScraper as described above for the Title Searcher program and Description Searcher Program. This program will output two lists, one list will be the identified list of sites to be aggregators, and the other list will be the unidentified list of sites to be aggregators.
 
 # Twitter Handle/Facebook Page Extractor
-Create a textfile called websites.txt with all of the websites that you want to search. Then run the file twitterandfacebook.py on that. This program wilAl output the twitter handles and facebook pages that were found for the websites that were searched. At this point, some minor editing of the output is required.
+Create a text file called websites.txt with all of the websites that you want to search for. Then run the file twitterandfacebook.py on that. This program will output the twitter handles and Facebook pages that were found for the websites that were searched. At this point, some minor editing of the output is required.
