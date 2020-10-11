@@ -52,3 +52,5 @@ Create a textfile called websites.txt with all of the websites that you want to 
 
 # Twitter Handle/Facebook Page Extractor
 Create a textfile called websites.txt with all of the websites that you want to search. Then run the file twitterandfacebook.py on that. This program wilAl output the twitter handles and facebook pages that were found for the websites that were searched. At this point, some minor editing of the output is required.
+
+***************************************************************************thankyou**********************************************************************************************
